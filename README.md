@@ -18,18 +18,18 @@ This Excel VBA project automates the analysis of stock data across multiple work
 # Features
 - Quarterly Stock Analysis: Automatically processes stock data for each quarter to provide detailed performance metrics.
 - Efficiency Enhancements: Uses Application.ScreenUpdating = False and Application.Calculation = xlCalculationManual to optimize performance by reducing unnecessary screen updates and recalculations.
-      - I used this link (https://stackoverflow.com/questions/58799143/how-to-speed-up-the-following-excel-vba-code) to enhance the code since my excel way timing out.
+    - I used this link (https://stackoverflow.com/questions/58799143/how-to-speed-up-the-following-excel-vba-code) to enhance the code since my excel way timing out.
 - Summary Output: Outputs key findings (greatest percentage change, highest volume) for easy interpretation.
 
 # Installation
 Running the Script:
-    - Download the .xlsm file and open it in Excel.
+  - Download the .xlsm file and open it in Excel.
       1. Open your terminal (Git Bash, Command Prompt, or any Git client).
       2. Use the cd command to navigate to the directory where you want to clone the repository.
       3. Run the following command to clone the repository: git clone link_provided
-    - Open the Excel file 
-    - Ensure macros are enabled.
-    - To execute the script, go to the VBA editor (Alt + F11), find module1 containing the script, and run Multiple_year_stock_data from the macro menu. Or Can execute the script by pressing the "Calculating the Tables" button (found in "Q1" excel sheet) and can reset the results by pressing "Reseting the Tables" button (found in "Q1" excel sheet). 
+  - Open the Excel file
+  - Ensure macros are enabled.
+  - To execute the script, go to the VBA editor (Alt + F11), find module1 containing the script, and run Multiple_year_stock_data from the macro menu. Or Can execute the script by pressing the "Calculating the Tables" button (found in "Q1" excel sheet) and can reset the results by pressing "Reseting the Tables" button (found in "Q1" excel sheet). 
 
 # Usage Instructions
 - The script will automatically process all worksheets.
