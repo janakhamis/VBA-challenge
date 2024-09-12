@@ -37,7 +37,7 @@ This Excel VBA project automates the analysis of stock data across multiple work
 - Ensure that the stock data for each quarter is placed in separate worksheets.
 - The script will automatically process all worksheets.
 - Once the script is executed, results will be printed in new columns, including:
-      - Ticker symbols.
-      - Quarterly changes and percentage changes.
-      - Total stock volumes.
+   - Ticker symbols.
+   - Quarterly changes and percentage changes.
+   - Total stock volumes.
 Additionally, a summary table will display the stocks with the greatest changes and volume across all worksheets.
